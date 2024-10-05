@@ -1,0 +1,187 @@
+/* ----- CABEZA DE LA PAGINA ----- */
+
+.navbar {
+	background-color: rgb(22, 22, 22);
+	text-align: left;
+	padding-left: 2%;
+	padding-bottom: 1px;
+	padding-top: 10px;
+	border-radius: 0px  0px 15px 15px;
+	border-bottom: solid 1px rgb(0, 81, 210);
+
+	
+}
+
+.img-logo {
+    width: 75px;
+	padding-bottom: 10px;
+}
+
+/* ----- CUERPO DE PAGINA ----- */
+
+
+body {
+    background-color: rgb(0, 0, 34);
+}
+
+.container {
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid 1px rgb(150, 150, 150);
+    max-width: 90%;
+
+}
+
+.card {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+	padding: 1%;
+	
+}
+
+.card-img_353_x_414 {
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	height: 50%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.card-353_x_414 {
+	background-color: rgb(247, 247, 247);
+    color: rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 85%;
+	
+	
+}
+
+.div-logo {
+	border-left: 2px solid  rgb(0, 81, 210);
+	border-right: 2px solid rgb(0, 81, 210);
+	
+
+}
+.card-img-top {
+    border-radius: 10px;
+	background-color: aqua;
+
+}
+
+
+.h2_titulo_marca {
+    color: rgb(0, 81, 210) ;
+    text-align: center;
+}
+
+.h3_marca {
+
+	text-align: center;
+    font-size: 20px;
+    height: 40px;
+
+    
+}
+
+/* ----- CAROUSEL ----- */
+
+.carousel__contenedor {
+	position: relative;
+}
+
+
+.carousel__ant_samsung,
+.carousel__sig_samsung,
+.carousel__ant_iphone,
+.carousel__sig_iphone {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #fff;
+	opacity: 20%;
+}
+
+.carousel__ant_samsung:hover,
+.carousel__sig_samsung:hover,
+.carousel__ant_iphone:hover,
+.carousel__sig_iphone:hover {
+	opacity: 100%;
+}
+
+.carousel__ant_samsung,
+.carousel__ant_iphone {
+	left: -30px;
+}
+
+.carousel__sig_samsung,
+.carousel__sig_iphone {
+	right: -30px;
+}
+
+.carousel_list_samsung,
+.carousel_list_iphone {
+	overflow: hidden;
+}
+
+.carousel__indica_samsung .glider-dot, 
+.carousel__indica_iphone .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.carousel__indica_samsung .glider-dot:hover,
+.carousel__indica_iphone .glider-dot:hover {
+	opacity: .5;
+}
+
+.carousel__indica_samsung .glider-dot.active,
+.carousel__indica_iphone .glider-dot.active {
+	opacity: 1;
+}
+
+/* ----- PIE DE PAGINA ----- */
+
+.footer {
+	background:rgb(22, 22, 22);
+    width: 90%;
+	height: 30px;
+    margin:10px auto;
+    border: 1px solid rgb(0, 81, 210);
+	border-radius: 15px  15px 0px 0Px;
+	border-bottom: none;
+	text-align: center; 
+	bottom: 0;
+	margin-left: 5%;
+	position: fixed;
+	margin-bottom: 0px;
+}
+
+.titulo_menu_Datos {
+	margin-top: 5px ;
+	color: white;
+	
+}
+
+/*RESPONSIVE RESOLUTION*/
+@media screen and (max-width: 800px) {
+	.container {
+		max-width: 85%;
+	}
+
+	.navbar {
+		text-align: center;
+	}
+}
+
