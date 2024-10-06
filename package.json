@@ -1,0 +1,12 @@
+{
+  "name": "primer-parcial",
+  "version": "1.0.0",
+  "description": "Electiva 2 Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

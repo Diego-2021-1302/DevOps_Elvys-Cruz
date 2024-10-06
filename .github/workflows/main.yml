@@ -1,9 +1,10 @@
-name: Deploy to Surge
+name: Node.js CI
 
 on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
   build:
@@ -13,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16'
@@ -21,8 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: npm run build  # Si tienes un script de build
-
-      - name: Deploy to Surge
-        run: surge --project ./ --domain <your-custom-domain> --token ${{ secrets.SURGE_TOKEN }}
+      - name: Run tests
+        run: npm test
