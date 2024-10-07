@@ -1,56 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproducoptero</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>Garabito Shop RD</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="./estilos.css">
-    <link rel="shortcut icon" href="./img/Fantasma Intro_Pro.png" type="image/x-icon">
-    <script src="main.js" defer></script>
-</head> 
+    <link rel="shortcut icon" href="./IMG/Favicon.png" type="image/x-icon">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 
+</head>
 <body>
-    <!-- Player -->
-    <main class="player">
 
-        <!-- Title -->
-        <h1 class="title" id="title">UNICOMICOPTERO</h1>
+<!--CABEZA MENU-->
+<header>
+  <nav class="navbar navbar-collapse-lg" data-bs-theme="dark">
+    <div class="navbar-collapse">
+      <img class="img-logo" src="./IMG/Sin título.png" alt="Imagen Logo">
+      <a class="navbar-brand" href="#">Garabito Shop RD</a>
+    </div>
+  </nav>
+</header>
 
-        <!-- Cover -->
-        <img src="./img/Logo.jpg" alt="" class="cover" id="cover">
 
-        <!-- Audio HTML Media elememt -->
-        <audio src="" id="audio"></audio>
+<!--CONTENEDOR DE SAMSUNG-->
+<div class="container"> <br>
+  <div class="row"> <h2 class="h2_titulo_marca">SAMSUNG</h2>
+    <div class="carousel__contenedor">
 
-        <!-- Progress bar -->
-        <div id="progress-container" class="progress-container">
-            <section id="progress" class="progress"></section>
+      <button aria-label="Anterior" class="carousel__ant_samsung">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+  
+      <div class="carousel_list_samsung">
+
+        <div class="card">
+          <h3 class="h3_marca">Samsung Galaxy S8</h3>
+          <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S8.png" alt="Samsung Galaxy S8">
+          <div class="card-body">
+            <h4 class="card-title">$5,000</h4>
+            <p class="card-text">Modelo: SM-G950FZVABTU <br> 64GB Almacenamiento <br> 4GB RAM</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
         </div>
 
-        <!-- Controls -->
-        <section class="controls">
-            <button class="prev">
-                <i id="prev" class="fas fa-backward"></i>
-            </button>
-            <button class="play">
-                <i id="play" class="fas fa-play"></i>
-            </button>
-            <button class="next">
-                <i id="next" class="fas fa-forward"></i>
-            </button>
-        </section>
+        <div class="card">
+              <h3 class="h3_marca">Samsung Galaxy S8+</h3>
+              <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S8+.png" alt="Samsung Galaxy S8+">
+              <div class="card-body">
+                <h4 class="card-title">$6,500</h4>
+                <p class="card-text">Modelo: SM-G955FZKABTU <br> 64GB Almacenamiento <br> 4GB RAM</p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+              </div>
+        </div>
 
-        <!-- Song list -->
-        <ul class="songs" id="songs">
-            <!-- <li><a href="#">Song 1</a></li>
-            <li><a class="active" href="#">Song 2</a></li>
-            <li><a href="#">Song 3</a></li> -->
-        </ul>
-    </main>
+        <div class="card">
+          <h3 class="h3_marca">Samsung Galaxy S9</h3>
+          <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S9.png" alt="Samsung Galaxy S9">
+          <div class="card-body">
+            <h4 class="card-title">$8,000</h4>
+            <p class="card-text">Modelo: SM-G960FZPABTU <br> 64GB Almacenamiento <br> 6GB RAM</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+        </div>
 
+        <div class="card">
+          <h3 class="h3_marca">Samsung Galaxy S9+</h3>
+          <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S9+.png" alt="Samsung Galaxy S9+">
+          <div class="card-body">
+            <h4 class="card-title">$9,500</h4>
+            <p class="card-text">Modelo: SM-G9600ZPJTPA <br> 64GB Almacenamiento <br> 6GB RAM</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+    </div>
+
+        <div class="card">
+              <h3 class="h3_marca">Samsung Galaxy S10</h3>
+              <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S10.png" alt="Samsung Galaxy S10">
+              <div class="card-body">
+                <h4 class="card-title">$10,500</h4>
+                <p class="card-text">Modelo: SM-G973FZWDBTU <br> 128GB Almacenamiento <br> 6GB RAM</p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+              </div>
+        </div>
+
+        <div class="card">
+              <h3 class="h3_marca">Samsung Galaxy S10+</h3>
+              <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S10+.png" alt="Samsung Galaxy S10+">
+              <div class="card-body">
+                <h4 class="card-title">$12,000</h4>
+                <p class="card-text">Modelo: SM-G975FZBDBTU <br> 128GB Almacenamiento <br> 8GB RAM   </p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+              </div>
+        </div>
+
+
+
+        <div class="card">
+              <h3 class="h3_marca">Samsung Galaxy S20</h3>
+              <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S20.png" alt="Samsung Galaxy S20">
+              <div class="card-body">
+                <h4 class="card-title">$14,000</h4>
+                <p class="card-text">Modelo: SM-G990U <br> 128GB Almacenamiento <br> 6GB RAM</p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+              </div>
+        </div>
+
+        <div class="card">
+              <h3 class="h3_marca">Samsung Galaxy S20+</h3>
+              <img class="card-img-top" src="./IMG/Productos/Samsung/Samsung Galaxy S20+ SM-G986BZADEUA.png" alt="Samsung Galaxy S20+">
+              <div class="card-body">
+                <h4 class="card-title">$15,500</h4>
+                <p class="card-text">Modelo: SM-G986BZADEUA <br> 128GB Almacenamiento <br> 8GB RAM</p>
+                <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+              </div>
+        </div>
+
+
+
+      </div>
+        
+      <button aria-label="Siguiente" class="carousel__sig_samsung">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+    </div>
+      <div role="tablist" class="carousel__indica_samsung"></div><br><br>
+  </div>
+</div>
+
+
+<!--CONTENEDOR DE IPHONE-->
+
+<div class="container"> <br>
+  <div class="row"> <h2 class="h2_titulo_marca">IPHONE</h2>
+    <div class="carousel__contenedor">
+
+      <button aria-label="Anterior" class="carousel__ant_iphone">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <div class="carousel_list_iphone">
+
+        <div class="card" id="iphone8">
+          <h3 class="h3_marca">Iphone 8+</h3>
+          <div class="card-img_353_x_414">
+          <img class="card-353_x_414" src="./IMG/Productos/Iphone/Iphone 8 Plus.png" alt="Iphone 8+">
+          </div>
+          <div class="card-body">
+            <h4 class="card-title">$9,500</h4>
+            <p class="card-text">Modelo A1864 <br> 128GB Almacenamiento <br> 4GB RAM</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+            <h3 class="h3_marca text-danger">Iphone XS Max</h3>
+          <img class="div-logo" src="./IMG/LOGO PLUS EDITING.png" alt="Samsung Galaxy A23">
+          <div class="card-body">
+            <h4 class="card-title">$--,---</h4>
+            <p class="card-text">Modelo: ---- <br> ----- <br> -----</p>
+            <br><br>
+            <a name="" id="" class="btn btn-danger" href="#" role="button">No disponible</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3_marca">Iphone 13</h3>
+          <img class="card-img-top" src="./IMG/Productos/Iphone/Iphone 13.png" alt="Iphone 13">
+          <div class="card-body">
+            <h4 class="card-title">$32,500</h4>
+            <p class="card-text">Modelo: A3106 <br>256 Almacenamiento <br>4GB RAM</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3_marca">Iphone 14</h3>
+          <img class="card-img-top" src="./IMG/Productos/Iphone/Iphone 14.png" alt="Iphone 14">
+          <div class="card-body">
+            <h4 class="card-title">$42,500</h4>
+            <p class="card-text">Modelo: </p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3_marca">Iphone 15 Pro</h3>
+          <img class="card-img-top" src="./IMG/Productos/Iphone/Iphone 15 Pro.png" alt="Iphone 15 Pro">
+          <div class="card-body">
+            <h4 class="card-title">$62,500</h4>
+            <p class="card-text">Modelo: A3108</p>
+            <a name="" id="" class="btn btn-primary" href="#" role="button">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 class="h3_marca text-danger">Iphone XS Max</h3>
+        <img class="div-logo" src="./IMG/LOGO PLUS EDITING.png" alt="Samsung Galaxy A23">
+        <div class="card-body">
+          <h4 class="card-title">$--,---</h4>
+          <p class="card-text">Modelo: ---- <br> ----- <br> -----</p>
+          <br><br>
+          <a name="" id="" class="btn btn-danger" href="#" role="button">No disponible</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="h3_marca text-danger">Iphone XS Max</h3>
+      <img class="div-logo" src="./IMG/LOGO PLUS EDITING.png" alt="Samsung Galaxy A23">
+      <div class="card-body">
+        <h4 class="card-title">$--,---</h4>
+        <p class="card-text">Modelo: ---- <br> ----- <br> -----</p>
+        <br><br>
+        <a name="" id="" class="btn btn-danger" href="#" role="button">No disponible</a>
+      </div>
+    </div>
+
+      </div>
+
+        <button aria-label="Siguiente" class="carousel__sig_iphone">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+    </div>
+        <div role="tablist" class="carousel__indica_iphone"></div><br><br>
+  </div>
+</div>
+
+
+<footer>
+  <div class="footer">
+      <h5 class="titulo_menu_Datos"><i class="fa-solid fa-ghost" style="color: rgb(0, 81, 210);"></i>UNICOMICOPTERO</h5>
+  </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+<script src="https://kit.fontawesome.com/e181144ad8.js" crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
 </body>
-
 </html>
+
